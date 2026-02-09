@@ -2,7 +2,7 @@
 const formURL = "https://forms.gle/cWHwUsgX12FdijVs5";
 
 const jamBuka = 7;   // 07.00
-const jamTutup = 9; // 21.00
+const jamTutup = 21; // 21.00
 
 const status = document.getElementById("status");
 const judul = document.getElementById("judul");
@@ -40,4 +40,5 @@ function cekJam() {
         status.innerText = "Absensi hanya jam 07.00 - 09.00";
         qrcodeDiv.style.display = "none";
     }
+
 }
